@@ -9,7 +9,8 @@ El juego tiene un botón de inicio y un botón de salida que se crean como insta
 
 El juego tiene un bucle while que continúa hasta que el jugador se queda sin vidas. El bucle ejecuta dos sub-bucles, uno para la pantalla de inicio y otro para el juego real. La pantalla de inicio muestra los botones de inicio y salida, mientras que la pantalla del juego muestra al jugador, los enemigos y la información del juego.
 
-English.
+# English.
+
 This is a Python code that uses the Pygame library to create a 2D game called "Spaguetti Head." The code imports several classes for game elements, including the Hero, Suelo (ground), Bola_hielo (ice ball), and Enemy classes. It also imports the Pygame library and initializes it to start creating a window to display the game. The game window is set to be 800 pixels wide and 600 pixels high. The background color is set to be a shade of blue. A clock is also initialized to optimize the animations. The game has sound effects that are loaded using Pygame's mixer module. The sound effects include game over, explosion, shooting, and enemy collision.
 
 The game has a start button and an exit button that are created as instances of a Button class. When the start button is clicked, the game begins. The player has three lives and can shoot ice balls to destroy enemies. Enemies are randomly generated on the screen. The game keeps track of the player's score and displays it on the screen along with the number of lives remaining. The game checks for collisions between the player and the ground, the player and enemies, and the player's ice ball and enemies.
